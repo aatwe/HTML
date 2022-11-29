@@ -1,0 +1,25 @@
+keywords that defines how browser formats and displays content
+
+staring tag	Closing tag
+<>   		</>		//Closing tag
+</>				//Self CLosing tag
+
+Ex of  html tags			Function
+	
+Container tags:
+
+	
+1) <html> </html>			Declare webpage			//contains 
+2) <head> </head>		Delimit page's head		//contains metadata -> data about the data
+3) <title> </title>
+4) <p>								//contains paragraph	
+
+
+
+Non Container Tags
+1) <meta.../>
+2) <link..../>
+3)<img..../>
+4) <input.../>
+5) <br />
+6) <hr />

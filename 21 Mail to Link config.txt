@@ -1,0 +1,36 @@
+<form class="" action="mailto:abhi.atwe@gmail.com" method="post">
+      <label> Your Name:</label>
+      <input type="text" name="" value=""><br>
+      <label> Your Email:</label>
+      <input type="submit" value = "Save">
+      <input type=Your Message name = "" value = "">
+      <textarea name="name" rows="10" cols="30"></textarea><br>
+    </form>
+
+
+Settings- > privacy and security -> site settings -> Additional permissions -> protocol handlers
+
+Sites are allowed to handle protocols
+
+mail.google.com should not be here
+
+load gmail -> check extension -> allow mail.google.com to open all email links: Allow
+
+More about mail to link
+mailtolink : 
+
+
+What is mailto link
+Mailto link is a type of HTML link that activates the default mail client on the computer for sending an e-mail.
+
+The web browser requires a default e-mail client software installed on his computer in order to activate the e-mail client.
+
+If you have Microsoft Outlook, for example as your default mail client, pressing a mailto link will open a new mail window.
+
+Note: SAP Uses : Automic Engine to send mails automaticaly  //broadcom
+
+
+How to create mailto link in HTML
+The mailto link is written like regular link with extra parameters inside the href attribute:
+
+<a href="mailto:name@email.com">Link text</a>

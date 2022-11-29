@@ -1,0 +1,12 @@
+<hr size="3"> 	//horizontal row of size 3
+
+<html element  html attribute>
+one html element has many attributes
+like 
+line
+color
+height
+
+
+for ex
+<hr size="3" noshde>

@@ -1,0 +1,21 @@
+Hyperlinks
+
+What is hypertext in html?
+hyper text = text documents that can be linked together using hyperlinks
+
+
+Check the Wiki Game
+1) Linking to external page
+<a href=" link">Text </a>
+ ---HTML element--------
+<a> = starting tag
+hreff = HTML Attribute
+link = destination link on click
+Text = LInk text
+</a> clsoing tag
+
+2) Linking to my own page
+create new file -> hobbies.html in same folder
+Add boiler plate code
+//no path since in same directory
+<a href=" Filename.html">Text </a>

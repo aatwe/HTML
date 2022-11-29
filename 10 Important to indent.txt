@@ -1,0 +1,4 @@
+tells you structure: what is inside what
+
+
+Automatic solution: Atom Beautify

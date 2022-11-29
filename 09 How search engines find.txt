@@ -1,0 +1,14 @@
+out meta data has description attribute
+For ex webpage: 
+MDN Docs: -> View page source(see HTML file what browser sees)
+			->search description attribute in meta data
+
+					XXXXXXXX written
+
+
+Google MDN
+The text it shows below link is meta data description attribute text
+
+SO WHAT SEARCH ENGINES DO?
+they look for meta tags to know what our website is about
+and displays them in search index

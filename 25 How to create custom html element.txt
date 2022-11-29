@@ -1,0 +1,45 @@
+What are custom elements?
+ JavaScript classes that control HTML elements.
+
+
+How to define custom element?
+1) define class, extend HTMLElement
+2) class should have constructor -> calling super constructor
+	const shadowRoot = this.attachShadow({ mode: "closed" });
+	shadowRoot.innerHTML = `<button>My Button</button>`;
+3) use customElements API   //helps define custom tag for class
+	customElements.define('my-button', MyButton);
+4) Use HTML Component  //have to use using ShadowDOM + APIs  in Constructor
+		//Why ShadowDOM ? cannot directly modify contents of custom element
+		//What use? use for DOM manipulations -> for ex update innerHTML, add children etc
+
+Below Code works:
+<script>
+	class MyButton extends HTMLElement {
+		constructor() {
+			super();
+			const shadowRoot = this.attachShadow({ mode: "closed" });
+			shadowRoot.innerHTML = `<button>My Button</button>`;
+		}
+	}
+	customElements.define('my-button', MyButton);
+</script>
+
+<my-button></my-button>
+
+
+Q) How to manipulate? Use ShadowDOM
+ this.attachShadow({mode: "open"}); will return us a Shadow Dom root node for this component.use this shadow root to update its innerHTML , add children, and more.
+
+<script>
+	class MyButton extends HTMLElement {
+		constructor() {
+			super();
+			const shadowRoot = this.attachShadow({ mode: "closed" });
+			shadowRoot.innerHTML = `<button>My Button</button>`;
+		}
+	}
+	customElements.define('my-button', MyButton);
+</script>
+
+<my-button></my-button>

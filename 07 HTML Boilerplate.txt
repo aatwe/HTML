@@ -1,0 +1,58 @@
+Create a Project Folder
+ -> HTML Personal Site
+
+//Can add new files using a shortcut
+
+What is the boilerplate code?
+boiler plate comes from : printing press small iron plate looks like small plate that identifies steam boiler
+
+blue dot: unsaved
+_______________________________________________________________________________________________
+Boiler plate: use emmet package
+
+Q) How html js files are shown on screen after we receive them? via Render engine
+
+What is rendering? Browsers use rendering engine -> Software is used by browser to render 
+a web page.
+What is Render = gather data and give output
+What is job of Rendering engine? convert html and js into text and images for screen
+
+<!DOCTYPE html>		//tells browser to render file as html document	
+			//Version of html //was longer for old version
+			html5 , html4 , xhtml
+
+
+<html lang="en" dir="ltr">	//tells browser everything in between tags is html code
+  <head>			//holds information about the webpage for ex title displayed in tab
+    
+       <meta charset="utf-8">	// Meta element: gives meta data to html document, 
+			charset attribute: tells all text inside is encoded with utf -8 encoding system
+			Other meta attributes : Gives information to serach engine
+			description:
+			keywords:
+			author:
+			viewport:
+					
+    <title> Welcome to Asplash</title>		
+  </head>
+  <body>
+      <h1>Abhilash Atwe</h1>
+    <p><em>A splash of my thoughts</em> </p>
+<p>I am a web developer and Data scientist
+         During free time I love recording/writing music, playing Football/Table Tennis with my friends and spending time on internet researching on Tech projects and Finance along with a newfound interest in blogging.  </p>
+  <hr>
+  <h3> Bootcamps undertaken </h3>  
+   <ul>
+      <li> The complete Webdevelopment bootcamp </li>
+   <ul>
+
+  <h3>My Hobbies </h3>
+   <ol>
+     <li> TT </li>			//Create separate pages for TT and Football and refer using a href to the main index.file
+     <li> Football </li>		
+     <li>Guitar and Music</li>
+   </ol>    
+
+</body>
+</html>
+______________________________________________________________________________________________

@@ -1,0 +1,12 @@
+Hyper Text Mark Up Language
+	Note markup = profit %  in economics
+	\in prog markup = structure+format+layout
+	in ms word -> in word files 2 ways to print -> print with markup / print wo markup
+		Review -> Track changes ->All markup -> cuts out lines with what you updated (tracks changes)
+
+Based on Mark up: used to be put in manuscripts	//edits/changes
+
+
+How to check how all3 work together: Codepen.io
+
+

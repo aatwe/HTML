@@ -1,0 +1,41 @@
+Why table? Helps print structured data i.e indented + neated
+Can also insert images in table with images elemen
+
+1) <thead> is used with <tbody> and <tfoot>
+2) keep atleast 1 tr in thead
+
+Table Structure
+1) <table>
+    1.1) <thead> //Can put table headers		//use thead instead of direct th when you want to style it seperately	//for ex scroll but keep headers fix //CSS//JS
+          1.2.1) <tr>
+	   1.4) 	<th>Dates </th>	//Heading for column 1
+		<th>Work </th>	//Heading for column 2
+      	   </tr>
+          </thead>	
+    1.2)  <tbody></tbody>
+    1.3)  <tfoot></tfoot>
+______+______+_+_+_+_+_+++++________++_+__________________________+++++++__________
+<table>
+
+	//Can also put table header here	//Same output because of <th>
+	<th>Dates </th>	//Heading for column 1
+	<th>Work </th>	//Heading for column 2
+
+	<tr>//table row 1
+	    <td>	//row 1 column 1</td>
+	    <td>	//row 1 column 2</td>
+	</tr>
+
+	<tr>//table row 2
+	    <td>	//row 2 column 1</td>
+	    <td>	//row 2 column 2</td>
+	</tr>
+</table>
+
+Table Attributes:
+
+How to give border ?
+<table border = "1">
+
+How to add spacing?
+<table cellspacing=="20">

@@ -1,0 +1,20 @@
+
+What is Repository on github? = Folder on cloud
+can track and update files
+0) Create new repository -> public -> Add a readme file
+
+
+1) Add File -> Upload your html files for CV
+2)Commit directly to the mail branch
+3) Settings -> Pages
+	Source : Change none to main
+
+you get a https website
+Can access it from anywhere across the word
+
+If still issue -> troubleshoot
+Also make sure code file i.e homepage should have index .html
+Github looks for index .html
+
+If error -> after sometime it will start working
+Can share this link

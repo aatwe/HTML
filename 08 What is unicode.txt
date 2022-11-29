@@ -1,0 +1,40 @@
+When you open a webpage in outdated browser like internet explorer
+or email you got from bulgarian friend
+
+
+Mojibake = Characters that are transformed
+
+Why? Browser is trying to render the characters with worng chracter set
+
+
+Q) What is char set? set of char used
+Q) What is encoding? Change info into computer understandable
+for ex character encoding = assign no. to character of hindi
+everylanguage has own encodings
+
+
+If you openMojibake in wiki
+Check encoiding : Unicode	-> Document.characterSet
+
+
+If you change encoding to arabic -> All webpage gets messed up
+Everything gets messed up
+
+Every language has its own encoding
+
+HTML 5 standard encoding = UTF8 
+
+
+Q) What different bw unicode and utf-8?
+	unicode = character set
+	utf-8 = encoding
+
+It includes all the international symbol and emojis
+THese emojis will also appear in html
+
+
+Q) How to check what encoding used in page? metadata of html code
+Google also uses UTF-8 which you can see in htm meta data
+
+Conclusion: Everything unicode gets encoded correctly
+	Websites render correctly on browsers that are for international  visitors

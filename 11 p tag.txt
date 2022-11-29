@@ -1,0 +1,8 @@
+Paragraph tag
+
+Text gets grouped into paragraph
+
+italicize: <em> over <i>	//em gives more information
+emphasis element
+
+Bold:	<strong> vs <b>

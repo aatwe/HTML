@@ -1,0 +1,44 @@
+123.. list
+// with numbers
+<ol>
+  <li> </li>
+  <li> </li>
+   ....
+</ol>
+
+
+
+
+<ol type="i">
+  <li> </li>
+  <li> </li>
+   ....
+</ol>
+
+
+Ex
+1) //with numbers
+<ol>
+  <li>Mix eggs and milk in a bowl.</li>
+  <li>Add salt and pepper.</li>
+</ol>
+
+2) //with bullet points
+<ul>
+  <li>Milk</li>
+  <li>Eggs</li>
+  <li>Butter</li>
+</ul>
+
+3) // definition :
+<dl>
+  <dt>blink</dt>
+  <dd>turn on and off between .5 and 3 times per second
+  </dd>
+</dl> 
+
+
+Output:
+
+blink
+	turn on and off between .5 and 3 times per second

@@ -1,0 +1,46 @@
+ What is HTML forms? give behaviours, prebuilt templates
+A section of documet containing, markup, controls and labels on controls
+"Forms require behaviour i.e Javascript for ex with behaviour
+
+Form with input:
+//action and method are related to Javascript
+<<form class="" action="index.html" method="post">
+      <<label> Your Name:</label>>			//caption for element
+      <<<input type="text" name="" value="">
+    </form>
+
+Input Types:
+How to add input text box in form?
+<input type="text" name="" value="">	//self closing
+
+How to add submit button in form?
+<input type="submit" value = "Save">
+
+
+How to add Checkboxes in form?
+<input type="checkbox" name = "" value = "">
+
+How to add color picker
+<input type="color" name = "" value = "">
+
+How to add password input:		//Everything we type is masked
+<input type="password" name="" value="">
+<label>Password </label>
+
+
+How to adjust text area in form, How to mail?
+1) How to mail using html
+  <form class="" action="mailto:abhi.atwe@gmail.com" method="post">
+
+2) How to adjust input text area?
+<textarea name="name" rows="10" cols="30"></textarea><br>
+
+<form class="" action="mailto:abhi.atwe@gmail.com" method="post">
+      <label> Your Name:</label>
+      <input type="text" name="" value=""><br>
+      <label> Your Email:</label>
+      <input type="email" name="yourEmail" value = ""> <br>	//adding input type will do basic checks for you like @ should be there
+      <input type=Your Message name = "" value = "">
+      <textarea name="name" rows="10" cols="30"></textarea><br>
+    </form>	
+

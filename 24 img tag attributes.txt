@@ -1,0 +1,2 @@
+<img src="images/Profile_Pic.jpg" width="120"
+     height="130" alt="Profile_Pic" style="border-radius: 50%"/>

@@ -1,0 +1,6 @@
+<starting tag +attribute + value> content </endtag> = element
+
+html element = start tag  + attributes +everythng in  between + end tag
+staring tag	Closing tag
+<>   		</>		//Closing tag
+</>				//Self CLosing tag

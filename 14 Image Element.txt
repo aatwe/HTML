@@ -1,0 +1,14 @@
+How to incorportate images into website 
+src= source = url/local image in same directory as website
+alt= alternative text = if browser cannot render image, it will display the alternative text
+	Used to describe what image was about	
+	//Google looks at this alt
+
+<img src= alt=>
+
+How do we get this image? we ping the image address server where this image is hosted
+browser downloads from there
+
+What if the server goes down-> Image will no longer be hosted/available at source
+Solution: put image in local project ->IMages folder
+	And add a path to it
